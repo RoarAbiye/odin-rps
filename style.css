@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.title {
+  text-align: center;
+  width: 50%;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 50px;
+}
+.score_tab {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ddd;
+  color: #333;
+  border-radius: 4px;
+  width: 50%;
+  height: 2em;
+  margin: 3px;
+  font-size: 40px;
+  text-align: center;
+  padding: 5px;
+}
+.winner_tab {
+  background-color: #ddd;
+  color: #333;
+  border-radius: 4px;
+  width: 50%;
+  height: 2em;
+  margin: 3px;
+  font-size: 40px;
+  text-align: center;
+  padding: 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  margin: 3px;
+  padding: 5px;
+}
+
+.play_button {
+  cursor: pointer;
+  height: 60px;
+  width: 100%;
+  border: 0px;
+  border-radius: 10px;
+  margin: 5px;
+  font-size: 20px;
+}
+.play_button:hover{
+  background-color: #ccc;
+}
+.play_button:active{
+  border: 1px solid #999;
+}
